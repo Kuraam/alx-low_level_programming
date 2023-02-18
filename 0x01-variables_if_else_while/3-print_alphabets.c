@@ -4,7 +4,8 @@
  *
  * Return: Always (Success)
  */
-int main(void){
+int main(void)
+{
 char c = 'a';
 char m = 'A';
 
