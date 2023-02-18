@@ -6,22 +6,16 @@
  */
 int main(void)
 {
-char c = 'a';
+char c ='a';
 
-do {
-
-if (c == 'p' || c == 'e') 
+while (c <= 'z')
 {
-/* skip the iteration */
-c++;
-continue;
+if (c != 'q' && c != 'e')
+{
+    putchar(c);
 }
-putchar(c);
 c++;
 }
-while (c <= 'z');
-{
-putchar('\n');}
-
-return (0);    
+putchar('\n');
+return (0);
 }
