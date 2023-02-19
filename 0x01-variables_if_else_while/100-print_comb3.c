@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* main - Print double digits 
+* main - Print double digits
 *
 * Return: Always (Success)
 */
