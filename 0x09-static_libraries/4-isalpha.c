@@ -1,13 +1,11 @@
 #include "main.h"
-/**
-* _isalpha - check for lower case.
-* @c: character to test.
-* Return: Always 0.
-*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
 int _isalpha(int c)
 {
-if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-return (1);
-else
-return (0);
+    return isalpha(c);
 }
+
